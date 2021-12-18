@@ -29,6 +29,8 @@ app.get('/register', function(req, res){
 });
 
 
+
+
 //Lavel 1 Authentication using email and password
 app.post('/register', function(req, res){
   const newUser = new User({
